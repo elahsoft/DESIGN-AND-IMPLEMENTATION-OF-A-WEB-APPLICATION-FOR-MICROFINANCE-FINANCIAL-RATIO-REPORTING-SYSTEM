@@ -1,0 +1,158 @@
+/* Header Styling */
+#start {
+    border: 2px solid rgb(2, 27, 17);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    height: auto;
+    padding-bottom: 100px;
+}
+.header {
+    background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#logo {
+    border: 1px solid rgb(2, 27, 17);
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-weight: bolder;
+    color: rgb(2, 27, 17);
+    margin-top: 40px;
+}
+#menu, #period  {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+}
+#menu {
+    background: rgb(4, 31, 14);
+}
+#menu > div > a{
+    color: #fff !important;
+}
+/* Home Styling */
+#home, #sustainability, #operational_self_sufficency, #dashboard, #asset_liability, 
+#financial_self_sufficency, #management_report_period,  #adjusted_return_on_assets,
+#adjusted_return_on_equity, #yield_on_gross_portfolio, #portfolio_to_asset, #cost_of_funds,
+#debt_to_equity, #liquidity_ratio, #portfolio_quality, #portfolio_at_risk, #write_off_ratio,
+#efficiency, #operating_expense_ratio, #cost_per_client, #generate_report{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#home-label, #sustainability-label, #operational_self_sufficency-label, #dashboard-label, 
+#asset_liability-label, #financial_self_sufficency-label, #management_report_period-label,
+#adjusted_return_on_assets-label, #adjusted_return_on_equity-label, #yield_on_gross_portfolio-label,
+#portfolio_to_asset-label, #cost_of_funds-label, #debt_to_equity-label, #liquidity_ratio-label,
+#portfolio_quality-label, #portfolio_at_risk-label, #write_off_ratio-label, #efficiency-label,
+#operating_expense_ratio-label, #cost_per_client-label, #generate_report-label
+ {
+    background-color: rgb(151, 216, 194);
+    border-top-left-radius: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 30px;
+    color: rgb(2, 27, 17);
+    font-weight: bolder;
+    
+}
+#welcome-text, #sustainability-text, #operational_self_sufficency-text, #asset_liability-text,
+ #financial_self_sufficency-text, #management_report_period-text,  #adjusted_return_on_assets-text,
+ #adjusted_return_on_equity-text, #yield_on_gross_portfolio-text, #portfolio_to_asset-text,
+ #cost_of_funds-text, #debt_to_equity-text, #liquidity_ratio-text, #portfolio_quality-text,
+ #portfolio_at_risk-text, #write_off_ratio-text, #efficiency-text, #operating_expense_ratio-text,
+ #cost_per_client-text, #generate_report-text{
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(2, 27, 17);
+    text-align: justify;
+}
+/*Sign in Section*/
+#signin {
+    margin-left: 220px;
+    margin-right: 220px;
+    border: 1px solid rgb(2,27,17);
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+}
+#signin > .row > div > h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(2, 27, 17) !important;
+    font-weight: bold;
+}
+#control-input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#sub-signin, #sub-operational-self-sufficiency,
+    #sub-financial-self-sufficiency,  #sub-set_period, #sub-adjusted-return-assets,
+    #sub-adjusted-return-on-equity, #sub-yield_on_gross_portfolio, #sub-portfolio_to_asset,
+    #sub-cost_of_funds, #sub-debt_to_equity, #sub-liquidity_ratio, #sub-portfolio_at_risk,
+    #sub-write_off_ratio, #sub-cost_per_client, #sub-generate_report  {
+    width: 20%;
+    margin-left: 30%;
+    color: rgb(2, 27, 17);
+    font-weight: bold;
+}
+#sub-signin:hover, #sub-operational-self-sufficiency:hover, #sub-financial-self-sufficiency:hover,
+#sub-set_period:hover, #sub-adjusted-return-assets:hover, #sub-adjusted-return-on-equity:hover,
+#sub-yield_on_gross_portfolio:hover, #sub-portfolio_to_asset:hover, #sub-cost_of_funds:hover,
+#sub-debt_to_equity:hover, #sub-liquidity_ratio:hover, #sub-portfolio_at_risk:hover,
+#sub-write_off_ratio:hover, #sub-cost_per_client:hover, #sub-generate_report:hover {
+    border: 1px solid rgb(2, 27, 17);
+}
+/*footer section */
+.footer-div {
+    margin-top: 10%;
+    background-color: rgb(2, 27, 17);
+    margin-left:0px;
+    margin-right: 0px;
+    text-align: center;
+    color: #fff;
+}
+#app-author {
+    text-align: right;
+    color: rgb(3, 145, 97);
+    font-style: italic;
+    font-weight: bold;
+    
+}
+/*Admin Pages*/
+#side-menu {
+    border: 1px solid rgb(2, 27, 17);
+    height: auto;
+}
+#side-menu > p > a {
+    color: rgb(2, 27, 17);
+    font-weight: bold;
+}
+#form-menu-section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* Other Stylings */
+h6 {
+    color: rgb(3, 145, 97);
+}
+#computational-section {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.status-report {
+    color: rgb(112, 27, 1);
+}

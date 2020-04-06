@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>ALVANA MICROFINANCE BANK LTD.</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content="All about Alvana Microfinance Bank, contact info, products & services, staff members, careers & opportunity"/>
+            <link rel="icon" href="../images/favicon.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="../css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/dataTables.bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/style.css"/>
+    </head>
+<body>
+<div class="section" id="start">
+    <div class="row header">
+        <div class="col-lg-2 col-md-2 col-sm-2" id="logo-div">
+                        <img src="../images/logo square.png" id="logo" />
+                </div>
+        <div class="col-lg-10 col-md-10 col-sm-10">
+            <h1> ALMFB LTD. FINANCIAL RATIO SUITE </h1>
+        </div>
+    </div>
+    <div class="row" id="menu">
+        <div class="col-lg-1 col-md-1 col-sm-1">
+            <a href="index.php?page=index">Home</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <a id="sustainability_profitability" href="index.php?page=sustainability_profitability">Sustainability/Profitability</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <a id="asset_liability_management" href="index.php?page=asset_liability_management">Asset/Liability Management</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <a id="portfolio_quality" href="index.php?page=portfolio_quality">Portfolio Quality</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <a id="efficiency_ratio" href="index.php?page=efficiency_ratio">Efficiency Ratio</a>
+        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                    <a id='generate_report' href="index.php?page=generate_report">Generate Report</a>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1">
+                    <a id="Logout" href="signout.php">Logout</a>
+                </div>
+                    
+    </div><div class="row" id="operational_self_sufficency">
+    <div class="col-lg-3 col-md-3 col-sm-3" id="operational_self_sufficency-label">
+        <h2>Financial Self Sufficiency List</h2>
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9" id="operational_self_sufficency-text">
+        <p> This Module assists you to document and prepare your Financial Self Sufficiency Ratio.
+            Financial Self Sufficiency Ratio helps you to determine whether or not the income of 
+            the MFB is able to cover the costs - both direct and indirect. The Bank is financially self 
+            sufficient if FSS is equal to or greater than 100%.</p>
+    </div>
+</div>
+<div class="row" id="form-menu-section">
+    <div class="col-lg-2 col-md-2 col-sm-2" id="side-menu">
+    <p> <a href="index.php?page=financial_self_sufficiency"> Financial Self Sufficiency </a></p>
+        <p> <a href="index.php?page=financial_self_sufficiency_list"> Financial Self Sufficiency List </a></p>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-10"  id="financial_self_sufficency-form">
+        <p class="status-report">
+                    </p>
+        <table id="list" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <th>DATE</th>
+                    <th>PERIOD</th>
+                    <th>FINANCIAL REVENUE</th>
+                    <th>ADJUSTED FINANCIAL EXPENSE</th>
+                    <th>NET LOAN LOSSES</th>
+                    <th>OPERATING EXPENSES</th>
+                    <th>FINANCIAL SELF SUFFICIENCY</th>
+                    <th>STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                                        <tr>
+                            <td>03/09/20</td>
+                            <td>2020-01-01 to 2020-03-31</td>
+                            <td>
+                                64000000                            </td>
+                            
+                            <td>
+                                133800                            </td>
+                            <td>80                            </td>
+                            <td>
+                                210000                            </td>
+                            <td>186.11                            </td>
+
+                            <td class="status-check">
+                                                                        <input type="checkbox" name="status1" id="status1" 
+                                            checked="checked"  class="glyph-button" onclick="updateStatus(0, 'FinancialSelfSufficiency', 1 )"/>
+                            `                               </td>
+                        </tr>
+                                            <tr>
+                            <td>03/29/20</td>
+                            <td>2020-01-01 to 2020-03-31</td>
+                            <td>
+                                64000000                            </td>
+                            
+                            <td>
+                                10000                            </td>
+                            <td>500000                            </td>
+                            <td>
+                                210000                            </td>
+                            <td>88.88                            </td>
+
+                            <td class="status-check">
+                                                                        <input type="checkbox" name="status2" id="status2" 
+                                            checked="checked"  class="glyph-button" onclick="updateStatus(0, 'FinancialSelfSufficiency', 2 )"/>
+                            `                               </td>
+                        </tr>
+                                            <tr>
+                            <td>03/29/20</td>
+                            <td>2020-01-01 to 2020-03-31</td>
+                            <td>
+                                64000000                            </td>
+                            
+                            <td>
+                                10000                            </td>
+                            <td>500000                            </td>
+                            <td>
+                                210000                            </td>
+                            <td>88.88                            </td>
+
+                            <td class="status-check">
+                                                                        <input type="checkbox" name="status3" id="status3" 
+                                            checked="checked"  class="glyph-button" onclick="updateStatus(0, 'FinancialSelfSufficiency', 3 )"/>
+                            `                               </td>
+                        </tr>
+                                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>DATE</th>
+                        <th>PERIOD</th>
+                        <th>FINANCIAL REVENUE</th>
+                        <th>ADJUSTED FINANCIAL EXPENSE</th>
+                        <th>NET LOAN LOSSES</th>
+                        <th>OPERATING EXPENSES</th>
+                        <th>FINANCIAL SELF SUFFICIENCY</th>
+                        <th>STATUS</th>
+                    </tr>
+                </tfoot>
+        </table>
+    </div>
+</div>
+
+    <div class="row footer-div">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <p id="footer"> Copyright © 2018 Alvana Microfinance Bank Limited. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <p id="app-author"> Powered by Elahsoft Systems </p>
+        </div>
+    </div>
+</div>
+</body>
+        <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="../js/dataTables.bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/datatables.js"></script>
+        <script type="text/javascript" src="../js/updateStatus.js"></script>
+        <script type="text/javascript" src="../js/deleteRecord.js"></script>
+    
+</html>

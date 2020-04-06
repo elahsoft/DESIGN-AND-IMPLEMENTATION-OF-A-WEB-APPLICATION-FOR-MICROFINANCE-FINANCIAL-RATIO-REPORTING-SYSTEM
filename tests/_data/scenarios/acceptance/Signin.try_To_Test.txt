@@ -1,0 +1,8 @@
+I WANT TO TRY TO TEST
+
+I am on page '/index.php?page=index?' 
+I fill field 'username','elahsoft' 
+I fill field 'password','alvanaMFB2018*' 
+I click 'sub-signin' 
+I see 'Welcome to your dashboard. We are currently in the quarter.'
+
