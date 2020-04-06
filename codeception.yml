@@ -8,9 +8,3 @@ actor_suffix: Tester
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
-modules:
-    config:
-        Db:
-            dsn: 'mysql:host=localhost;dbname=ratio_analysis'
-            user: 'alvanamfb_admin'
-            password: 'alvanaMFB2018*'

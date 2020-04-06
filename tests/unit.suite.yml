@@ -7,17 +7,4 @@ modules:
     enabled:
         - Asserts
         - \Helper\Unit
-        - Db:
-            dsn: 'mysql:host=localhost;dbname=ratio_analysis'
-            user: 'alvanamfb_admin'
-            password: 'alvanaMFB2018*'
-            dump: 'tests/_data/dump.sql'
-            populate: true
-            cleanup: true
-            reconnect: true
-            waitlock: 10
-            initial_queries:
-                - 'CREATE DATABASE IF NOT EXISTS temp_db;'
-                - 'USE temp_db;'
-                - 'SET NAMES utf8;'
     step_decorators: ~        

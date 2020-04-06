@@ -1,0 +1,12 @@
+# Don't track this olders
+vendor/
+fonts/
+css/bootstrap.min.css
+css/dataTables.bootstrap.min.css
+css/font-awesome.min.css
+js/bootstrap.min.js
+js/dataTables.bootstrap.min.js
+js/datatables.js
+js/jquery-3.3.1.min.js
+js/jquery.dataTables.min.js
+fonts/
