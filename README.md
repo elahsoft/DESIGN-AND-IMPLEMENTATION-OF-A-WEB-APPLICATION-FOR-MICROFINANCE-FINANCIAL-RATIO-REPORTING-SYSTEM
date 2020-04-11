@@ -63,3 +63,6 @@ To run the tests, you use the command: vendor\bin\codecept run --steps.
 * SpryMedia Ltd for DataTables
 * Twitter for their Bootstrap package
 * Olivier PLATHEY for FPDF
+
+## Contributions
+The project can be made to become an expert system that compares past periods financial ratios to the present one and advise management on steps to take to grow the Microfinance Institution.
